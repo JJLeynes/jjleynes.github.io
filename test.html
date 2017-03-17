@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+      <html>
+        <head>
+          <title>Password Encryption</title>
+        </head>
+        <body>
+          <form method="post" action="$script"> <font size="5"><b> File
+                Encryption</b></font> <br>
+            <br>
+            Enter Username-<br>
+            <input name="user" value="user" size="20"><br>
+            <br>
+            Enter Password-<br>
+            <input name="password" value="password" size="20"> <br>
+            <br>
+            <input name="submit" value="Enter" type="submit">
+</form> <meta content="text/html; charset=utf-8" http-equiv="content-type">
+            <script>
+function passWord() {
+var testV = 1;
+var pass1 = prompt('Enter Password',' ');
+while (testV < 3) {
+if (!pass1) 
+history.go(-1);
+if (pass1.toLowerCase() == "1234567890") {
+alert('Enter');
+window.open('http://www.inwer.us/pink.jpg');
+break;
+} 
+testV+=1;
+var pass1 = 
+prompt('Access Denied.','Password');
+}
+if (pass1.toLowerCase()!="password" & testV ==3) 
+history.go(-1);
+return " ";
+} 
+</script> 
+          
+            <center>
+              <form> <input value="Enter Protected Area" onclick="passWord()" type="button">
+</form>
+</center>
+  
+    <meta content="text/html; charset=utf-8" http-equiv="content-type">
+    <title></title>
+  
+  
+    <p><br>
+    </p>
+</body></html>
