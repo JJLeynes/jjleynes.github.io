@@ -1,61 +1,12 @@
 <!DOCTYPE html>
-      <html>
-        <head>
-          <title>Password Encryption</title>
-        </head>
-        <body style="      background-image: url(&quot;http://www.inwer.us/selfbackground.jpg&quot;);">
-          <form method="post" action="$script">
-            <font size="5"><b>.htpasswd File Password Encryption</b></font>
-            <br>
-            <br>
-            Enter Username<br>
-            <input name="user" value="$user" size="20"><br>
-            <br>
-            Enter Password<br>
-            <input name="password" value="$password" size="20">
-            <br>
-            <br>
-            <input name="submit" value="Encrypt Now" type="submit">
-";
-if (!empty($user) AND !empty($encryptedPassword)) {
-  echo "<br><br>.htpasswd File Code<br>$user:$encryptedPassword<br>
-}
-echo "</form>";
-?&gt;
-          
-            <meta content="text/html; charset=utf-8" http-equiv="content-type">
-            <script>
-function passWord() {
-var testV = 1;
-var pass1 = prompt('Enter Password',' ');
-while (testV < 3) {
-if (!pass1) 
-history.go(-1);
-if (pass1.toLowerCase() == "1234567890") {
-alert('Enter');
-window.open('http://www.inwer.us/pink.jpg');
-break;
-} 
-testV+=1;
-var pass1 = 
-prompt('Access Denied.','Password');
-}
-if (pass1.toLowerCase()!="password" & testV ==3) 
-history.go(-1);
-return " ";
-} 
-</script> 
-          
-            <center>
-              <form> <input value="Enter Protected Area" onclick="passWord()" type="button">
-</form>
-</center>
-  
-    
-  
-    
+<html>
+  <head>
+    <title>Password Encryption</title>
+  </head>
+  <body style="         background-image: url(&quot;http://www.inwer.us/pink.jpg&quot;);">
     <div style="text-align: center;">
-      <h1><span style="font-family: Centaur;"><u><font color="red">About Me<br>
+      <h1><span style="font-family: Centaur;"><u><font color="red">About
+              Me<br>
             </font></u></span></h1>
     </div>
     <h1> </h1>
@@ -63,4 +14,5 @@ return " ";
       <h1>&nbsp; </h1>
     </div>
     <title>self</title>
-</body></html>
+  </body>
+</html>
